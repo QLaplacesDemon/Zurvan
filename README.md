@@ -1,7 +1,7 @@
 <div align="left">
   <h1>
   	Zurvan
-    <img src="https://github.com/QLaplacesDemon/Zurvan/raw/main/index-images/logo.png" alt="Logo" width="100" height="100" align="right">
+    <img src="https://github.com/QLaplacesDemon/Zurvan/raw/main/index-images/logo.png" alt="Logo" width="300" height="300" align="right">
   </h1>
 </div>
 

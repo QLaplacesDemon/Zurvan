@@ -5,3 +5,5 @@
  ## What does that even mean?(What is the end result?) 
  Ultimately, we will have a decentralized, peer-to-peer system that forms a symmetrical manifold, where the dynamics of its nodes are governed by fluid dynamics. 
  For each node, we begin with a Gaussian white noise model and define the convolution computation, as well as the noise addition and removal processes, as a node rotation based on an elliptical function.
+
+![Markov ring of the Gaussian white noise](./index-images/Zurvan-images-Model1.png)

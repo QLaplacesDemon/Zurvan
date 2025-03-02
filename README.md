@@ -1,9 +1,10 @@
 <div align="center">
-	<h1>
-		Zurvan
-		<img src="https://github.com/QLaplacesDemon/Zurvan/tree/main/index-images/logo.png" alt="Logo" width="50" height="50" align="right">
-	</h1>
+  <h1>
+  	Zurvan
+    <img src="https://github.com/QLaplacesDemon/Zurvan/raw/main/index-images/logo.png" alt="Logo" width="50" height="50" align="right">
+  </h1>
 </div>
+
  A decentralized, peer-to-peer computational ecosystem based on symmetrical computation nodes, where their interactions and connections are defined by fluid dynamics formulations. Within this framework, we can construct a generative model where node transformations are governed by fluid dynamic formulations, and the overall structure of the model is rooted in the group symmetry of the space.
  Using this framework, we can create a generalized computational system where each user running a node contributes to the formation of the symmetrical space. Similar to a fractal structure, the space evolves as each unit computes the node's transformations, which are governed by fluid dynamics. This results in a dynamic space that inherently carries the noise model of any diffusion process, enabling the integration of diffusion-based generative models.
 

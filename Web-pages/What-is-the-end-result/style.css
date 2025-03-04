@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(44, 37, 34); /* Light beige background */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Header */
+header {
+    background: rgb(254, 250, 233);
+    color: rgb(31, 27, 41);
+    padding: 20px 0;
+}
+
+header .logo-container {
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    margin-bottom: 20px; /* Space between logo and navigation */
+}
+
+header .header-logo {
+    width: 350px; /* Adjust logo size */
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center navigation links */
+    gap: 20px; /* Space between links */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(31, 27, 41);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 4.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Introduction Columns */
+.introduction {
+    padding: 50px 0;
+    background-color: rgb(31, 27, 41); /* Dark purple background */
+}
+
+.introduction .container {
+    display: flex;
+    gap: 20px;
+}
+
+.intro-column {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(200, 134, 80); /* Light brown background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-column:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-column i {
+    font-size: 3em;
+    color: #fff; /* White icons */
+    margin-bottom: 10px;
+}
+
+.intro-column h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #fff; /* White text */
+}
+
+.intro-column p {
+    font-size: 1em;
+    color: #eee; /* Light gray text */
+    margin-bottom: 20px;
+}
+
+.intro-column .intro-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(134, 109, 118);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    font-size: 0.9em;
+}
+
+.intro-column .intro-button i {
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.intro-column .intro-button:hover {
+    background: #e07b0e;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+footer a {
+    margin: 0;
+    color: #ffff;
+}
+
+.info-icon {
+  position: relative;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.info-icon .tooltip {
+  position: absolute;
+  bottom: 120%; /* Position above the "i" */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 0.4em;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000; /* Ensure the tooltip appears above other content */
+}
+
+.info-icon:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tooltip a {
+  color: #ffff; /* Style the link */
+  text-decoration: underline;
+}
+
+.tooltip a:hover {
+  color: rgb(200, 134, 80); /* Hover effect for the link */
+}
